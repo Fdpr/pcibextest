@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table {
+  border-collapse: collapse;
+  width: 60%;
+  align: center;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<h2>Stichproben-relevante Angaben</h2>
+<p>Bitte füllen Sie den Fragebogen aus.</p>
+
+<table>
+  <tr>
+    <td>Alter: </td>
+    <td><input type="text" size="30" class="obligatory" name="Alter" id="Alter"/></td>
+  </tr>
+  <tr>
+    <td>Geschlecht: </td>
+    <td><input type="text" size="30" class="obligatory" name="Geschlecht" id="Geschlecht"/></td>
+  </tr>
+  <tr>
+  	<td>Händigkeit: </td>
+    <td>
+    <input type="radio" class="obligatory" name="Haendigkeit" id="linkshändig" value="linkshändig"/>
+    <label for="linkshändig">linkshändig</label><br>
+    <input type="radio" class="obligatory" name="Haendigkeit" id="rechtshändig" value="rechtshändig"/>
+    <label for="rechtshändig">rechtshändig</label><br>
+    <input type="radio" class="obligatory" name="Haendigkeit" id="keine Präferenz" value="keine Präferenz"/>
+    <label for="keine Präferenz">keine Präferenz</label><br>
+    </td>
+  </tr>
+  <tr>
+    <td>Geboren in (Bundesland/Staat): </td>
+    <td><input type="text" size="30" class="obligatory" name="Geboren" id="Geboren"/></td>
+  </tr>
+  <tr>
+    <td>Derzeitiger Wohnsitz (Bundesland/Staat): </td>
+    <td><input type="text" size="30" class="obligatory" name="Wohnsitz" id="Wohnsitz"/></td>
+  </tr>
+  <td>Deutsch als Muttersprache? </td>
+    <td>
+    <input type="radio" class="obligatory" name="Deutsch_Muttersprache" id="Ja" value="Ja"/>
+    <label for="Ja">Ja</label><br>
+    <input type="radio" class="obligatory" name="Deutsch_Muttersprache" id="Nein" value="Nein"/>
+    <label for="Nein">Nein</label><br>
+
+    </td>
+  <tr>
+    <td>Muttersprachen (außer Deutsch): </td>
+    <td><input type="text" size="30" class="obligatory" name="Muttersprachen" id="Muttersprachen"/></td>
+  </tr>
+  <tr>
+    <td>Prolific-ID: </td>
+    <td><input type="text" size="30" class="obligatory" name="Prolific-ID" id="Prolific-ID"/></td>
+  </tr>
+</table>
+
+
+
+<tr>
+<td colspan="2">
+<label class="error" for="Alter"></label>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label class="error" for="Geschlecht"></label>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label class="error" for="Haendigkeit"></label>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label class="error" for="Geboren"></label>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label class="error" for="Wohnsitz"></label>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label class="error" for="Deutsch_Muttersprache"></label>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label class="error" for="Muttersprachen"></label>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<label class="error" for="Prolific-ID"></label>
+</td>
+</tr>
+
+<br/>
+<br/>
+
+</body>
+</html>
